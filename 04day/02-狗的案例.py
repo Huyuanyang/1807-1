@@ -7,7 +7,7 @@ class Dog():
         print("sleep")
 
     def setAge(self,age):
-        if age > 15 and age < 1:
+        if age > 15 or age < 1:
             print("年龄不符合")
         else:
             self.age = age
